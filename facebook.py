@@ -25,7 +25,7 @@ def scroll():
     start_time = datetime.now()
     global minute_count
     minute_count = 0
-    while minute_count != 2:
+    while minute_count != 3:
         # 끝까지 스크롤 다운
         driver.execute_script("window.scrollTo(0, document.body.scrollHeight);")
         time_count(start_time)
@@ -33,7 +33,7 @@ def scroll():
 
 img_folder_path = "D:/University/전공/4학년/문제해결실무/images"
 options = Options()
-tags = ["증명사진", "セルカ", "tựsướng"]
+tags = ["증명사진", "セルカ", "tựsướng", "셀카", "Selca"]
 
 # selenium에서 사용할 웹 드라이버 절대 경로 정보
 chromedriver = "C:\chromedriver\chromedriver.exe"
