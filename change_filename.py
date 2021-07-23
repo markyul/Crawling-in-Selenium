@@ -2,8 +2,8 @@ import os
 
 # 주어진 디렉토리에 있는 항목들의 이름을 담고 있는 리스트를 반환합니다.
 # 리스트는 임의의 순서대로 나열됩니다.
-file_path = "C:/Users/HakRyul/Desktop/PBL_asian_face"
-copy_file_path = "C:/Users/HakRyul/Desktop/PBL_asian_face_copy"
+file_path = "C:/Users/HakRyul/Desktop/result_images/1"
+copy_file_path = "C:/Users/HakRyul/Desktop/result_images/2"
 file_names = os.listdir(file_path)
 
 i = 1
